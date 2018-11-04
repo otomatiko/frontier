@@ -250,10 +250,6 @@ body {
 
 
 
-
-
-
-
 /*MEDIA QUERIES-----------------------------*/
 
 /*desktop view*/
@@ -293,6 +289,11 @@ body {
 	.follow-us {
 
 		border-left: 1px solid grey;
+	}
+
+	.gallery-imgs {
+		height: 90%;
+		width: 70%;
 	}
 
 }
@@ -337,7 +338,14 @@ body {
 	height: auto;
 	width: 100%;
 	}
+
+	.gallery-imgs {
+		height: 91%;
+		/*width: 70%;*/
+	}
 }
+
+
 /*mobile view*/
 
 @media only screen and (max-width: 400px) {
@@ -378,7 +386,6 @@ body {
 	height: auto;
 	width: 100%;
 	}
-
 
 }
 
